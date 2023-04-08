@@ -2218,3 +2218,124 @@
 [2023-04-08 20:30:30] INFO root fetch - main [MainThread]: success
 [2023-04-08 20:30:31] INFO root fetch - main [MainThread]: success
 [2023-04-08 20:30:31] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17631740]
+[2023-04-08 20:50:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-08 20:50:36] INFO root fetch - processPackages [watch-the-super-mario-bros-free-online-at-home]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-08 20:50:36] INFO root fetch - processPackages [coolfunc]: New version: [1.0.1] Old Version: [1.0]
+[2023-04-08 20:50:36] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-08 20:50:36] INFO root fetch - processPackages [keyrock-encryption]: New version: [2023.4.8.1838] Old Version: [2022.12.26.2203]
+[2023-04-08 20:50:36] INFO root fetch - processPackages [pykillerx]: New version: [0.1b4] Old Version: [0.1.9]
+[2023-04-08 20:50:37] INFO root fetch - processPackages [watch-the-super-mario-bros-free-online-at-home]: Downloading https://files.pythonhosted.org/packages/5c/0d/588d375a475f706e8cd02ce3fa9dc173f60c80a1e15480a5fa774349702d/watch-the-super-mario-bros-free-online-at-home-0.0.1.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [coolfunc]: Downloading https://files.pythonhosted.org/packages/4f/9a/a64872702d4ad61e34a2db263668185fc86fc25b5bb98870fddccef45304/coolfunc-1.0.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/c1/1b/11e8fc3a2a975b79e036cfdfd1637faef255f2296f2d7df0906811885645/nonebot_plugin_l4d2_server-0.4.1.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [keyrock-encryption]: Downloading https://files.pythonhosted.org/packages/7c/a9/b6c2afcb9f41db5949fed72207b99aa5017caa7a3a5232d5afe1a4bddee7/keyrock-encryption-2022.12.26.2203.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [coolfunc]: Downloading https://files.pythonhosted.org/packages/b1/ec/432375e6d7899631a989535597ef69f5c907a52459110b646558778d2cb8/coolfunc-1.0.1.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [watch-the-super-mario-bros-free-online-at-home]: Downloading https://files.pythonhosted.org/packages/92/f1/ff10645a28bf34ca4840730f36a6fdd4fd8d1f8018f6112e8aba52c40626/watch-the-super-mario-bros-free-online-at-home-0.0.2.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [pykillerx]: executing diffoscope
+[2023-04-08 20:50:37] INFO root fetch - processPackages [pykillerx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykillerx-0.1.9.tar.gz tmp/pykillerx-0.1b4.tar.gz --markdown 20230408/p/pykillerx/0.1.9-0.1b4/diff.md --exclude *.pyd
+[2023-04-08 20:50:37] INFO root fetch - processPackages [keyrock-encryption]: Downloading https://files.pythonhosted.org/packages/39/8a/9f5e5ec2293219d75a57b6cf46f3588f3bae34b7216bf4d0a210a44f907f/keyrock-encryption-2023.4.8.1838.tar.gz
+[2023-04-08 20:50:37] INFO root fetch - processPackages [coolfunc]: executing diffoscope
+[2023-04-08 20:50:37] INFO root fetch - processPackages [watch-the-super-mario-bros-free-online-at-home]: executing diffoscope
+[2023-04-08 20:50:37] INFO root fetch - processPackages [coolfunc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolfunc-1.0.tar.gz tmp/coolfunc-1.0.1.tar.gz --markdown 20230408/c/coolfunc/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-08 20:50:37] INFO root fetch - processPackages [watch-the-super-mario-bros-free-online-at-home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watch-the-super-mario-bros-free-online-at-home-0.0.1.tar.gz tmp/watch-the-super-mario-bros-free-online-at-home-0.0.2.tar.gz --markdown 20230408/w/watch-the-super-mario-bros-free-online-at-home/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-08 20:50:37] INFO root fetch - processPackages [keyrock-encryption]: executing diffoscope
+[2023-04-08 20:50:37] INFO root fetch - processPackages [keyrock-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrock-encryption-2022.12.26.2203.tar.gz tmp/keyrock-encryption-2023.4.8.1838.tar.gz --markdown 20230408/k/keyrock-encryption/2022.12.26.2203-2023.4.8.1838/diff.md --exclude *.pyd
+[2023-04-08 20:50:38] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/4f/ee/80d2dc2eca9e79d3e256453c0dde60efcc6828b57cdd04885408149a9bb8/nonebot_plugin_l4d2_server-0.4.2.tar.gz
+[2023-04-08 20:50:38] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:38] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:38] WARNING root fetch - processPackages [stlog]: Skipping, unable to determine old version
+[2023-04-08 20:50:38] INFO root fetch - main [MainThread]: error
+[2023-04-08 20:50:38] INFO root fetch - processPackages [mastodon-to-sqlite]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-04-08 20:50:38] INFO root fetch - processPackages [AIFunction]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-08 20:50:38] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:38] INFO root fetch - processPackages [nudecrawler]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-08 20:50:38] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:38] INFO root fetch - processPackages [selenium-enhancer]: New version: [1.0.0] Old Version: [0.2.22]
+[2023-04-08 20:50:38] INFO root fetch - processPackages [AIFunction]: Downloading https://files.pythonhosted.org/packages/27/cc/3c2a152cbb4a46ab57969c88a1c17e320d2ed3489fa958158f0b7b48d3bd/AIFunction-1.0.6.tar.gz
+[2023-04-08 20:50:38] INFO root fetch - processPackages [mastodon-to-sqlite]: Downloading https://files.pythonhosted.org/packages/9c/aa/ef650dc52b8850f560b5182d513a462e25124f3d3cbbc475280c7c17412c/mastodon_to_sqlite-0.1.1.tar.gz
+[2023-04-08 20:50:38] INFO root fetch - processPackages [selenium-enhancer]: Downloading https://files.pythonhosted.org/packages/60/fa/4296100126dad890d3f7f7b1f14ab3b9577fb5fb6a5d7d3e24a22777f454/selenium_enhancer-0.2.22.tar.gz
+[2023-04-08 20:50:38] INFO root fetch - processPackages [AIFunction]: Downloading https://files.pythonhosted.org/packages/52/5e/49b75484ae9f5b9ab06fe768891a6ff10bb10f1c60a8efbadc71e0933319/AIFunction-1.0.7.tar.gz
+[2023-04-08 20:50:38] INFO root fetch - processPackages [nudecrawler]: Downloading https://files.pythonhosted.org/packages/48/d3/6aa9e8d41c8c7d1e4c81793bd3f7c57406ce5e80f60ff554a1694a3d62c4/nudecrawler-0.3.5.tar.gz
+[2023-04-08 20:50:39] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-04-08 20:50:39] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.4.1.tar.gz tmp/nonebot_plugin_l4d2_server-0.4.2.tar.gz --markdown 20230408/n/nonebot-plugin-l4d2-server/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-08 20:50:39] INFO root fetch - processPackages [AIFunction]: executing diffoscope
+[2023-04-08 20:50:39] INFO root fetch - processPackages [AIFunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIFunction-1.0.6.tar.gz tmp/AIFunction-1.0.7.tar.gz --markdown 20230408/A/AIFunction/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-08 20:50:39] INFO root fetch - processPackages [mastodon-to-sqlite]: Downloading https://files.pythonhosted.org/packages/d6/50/7e4e337234390522ffabaebcc80065e73eb3c6668f0ec56b25eb55dfb8f5/mastodon_to_sqlite-0.2.0.tar.gz
+[2023-04-08 20:50:39] INFO root fetch - processPackages [nudecrawler]: executing diffoscope
+[2023-04-08 20:50:39] INFO root fetch - processPackages [nudecrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nudecrawler-0.3.4.tar.gz tmp/nudecrawler-0.3.5.tar.gz --markdown 20230408/n/nudecrawler/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-08 20:50:39] INFO root fetch - processPackages [selenium-enhancer]: Downloading https://files.pythonhosted.org/packages/dd/2b/dcdf176e859e6bb492a227388773830237e6c8cb7b1d78ff2a10a0ce6c73/selenium_enhancer-1.0.0.tar.gz
+[2023-04-08 20:50:39] INFO root fetch - processPackages [selenium-enhancer]: executing diffoscope
+[2023-04-08 20:50:39] INFO root fetch - processPackages [selenium-enhancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_enhancer-0.2.22.tar.gz tmp/selenium_enhancer-1.0.0.tar.gz --markdown 20230408/s/selenium-enhancer/0.2.22-1.0.0/diff.md --exclude *.pyd
+[2023-04-08 20:50:39] INFO root fetch - processPackages [mastodon-to-sqlite]: executing diffoscope
+[2023-04-08 20:50:39] INFO root fetch - processPackages [mastodon-to-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mastodon_to_sqlite-0.1.1.tar.gz tmp/mastodon_to_sqlite-0.2.0.tar.gz --markdown 20230408/m/mastodon-to-sqlite/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-04-08 20:50:40] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:40] INFO root fetch - processPackages [casambi-bt]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-08 20:50:40] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:40] INFO root fetch - processPackages [pynarrator]: New version: [0.0.1.6] Old Version: [0.0.1.5]
+[2023-04-08 20:50:40] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:40] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:40] INFO root fetch - processPackages [calcipy]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-08 20:50:40] INFO root fetch - processPackages [AIFunction]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-08 20:50:40] INFO root fetch - processPackages [AIFunction]: executing diffoscope
+[2023-04-08 20:50:40] INFO root fetch - processPackages [AIFunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIFunction-1.0.6.tar.gz tmp/AIFunction-1.0.7.tar.gz --markdown 20230408/A/AIFunction/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-08 20:50:40] INFO root fetch - processPackages [pynarrator]: Downloading https://files.pythonhosted.org/packages/b1/17/226b63bdb547130d36d347a7fe346b5e260f9ba2e7ebd13cf5907afd115d/pynarrator-0.0.1.5.tar.gz
+[2023-04-08 20:50:40] INFO root fetch - processPackages [casambi-bt]: Downloading https://files.pythonhosted.org/packages/c6/b9/94f2e0f100f31fa820bad45c6286f2401a13726ee2f86750253213d63110/casambi_bt-0.1.3-py3-none-any.whl
+[2023-04-08 20:50:40] INFO root fetch - processPackages [casambi-bt]: executing diffoscope
+[2023-04-08 20:50:40] INFO root fetch - processPackages [casambi-bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casambi_bt-0.1.2-py3-none-any.whl.zip tmp/casambi_bt-0.1.3-py3-none-any.whl.zip --markdown 20230408/c/casambi-bt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-08 20:50:40] INFO root fetch - processPackages [calcipy]: Downloading https://files.pythonhosted.org/packages/24/14/bfce4cc477938912a093e4ff8ac585e9ed5829545eb262dfb9793c167d79/calcipy-1.2.3.tar.gz
+[2023-04-08 20:50:40] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:40] INFO root fetch - processPackages [calcipy]: executing diffoscope
+[2023-04-08 20:50:40] INFO root fetch - processPackages [calcipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcipy-1.2.2.tar.gz tmp/calcipy-1.2.3.tar.gz --markdown 20230408/c/calcipy/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-08 20:50:40] INFO root fetch - processPackages [kcli]: New version: [99.0.202304081851] Old Version: [99.0.202304081551]
+[2023-04-08 20:50:40] INFO root fetch - processPackages [pynarrator]: Downloading https://files.pythonhosted.org/packages/1c/2d/fd57e8d1fbf5180e8fb13da7f0a580558458a202ca352b5ae68f12df1efa/pynarrator-0.0.1.6.tar.gz
+[2023-04-08 20:50:40] INFO root fetch - processPackages [pynarrator]: executing diffoscope
+[2023-04-08 20:50:40] INFO root fetch - processPackages [pynarrator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynarrator-0.0.1.5.tar.gz tmp/pynarrator-0.0.1.6.tar.gz --markdown 20230408/p/pynarrator/0.0.1.5-0.0.1.6/diff.md --exclude *.pyd
+[2023-04-08 20:50:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/07/07/8d7e512df30c522115937954520e64fbf57879d87bbbe4e0d6e19a2a402c/kcli-99.0.202304081851-py3-none-any.whl
+[2023-04-08 20:50:41] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:41] WARNING root fetch - processPackages [dangermode]: Skipping, unable to determine old version
+[2023-04-08 20:50:41] INFO root fetch - main [MainThread]: error
+[2023-04-08 20:50:41] INFO root fetch - processPackages [AIFunction]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-04-08 20:50:41] INFO root fetch - processPackages [AIFunction]: executing diffoscope
+[2023-04-08 20:50:41] INFO root fetch - processPackages [AIFunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIFunction-1.0.6.tar.gz tmp/AIFunction-1.0.7.tar.gz --markdown 20230408/A/AIFunction/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-04-08 20:50:41] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:41] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:41] INFO root fetch - processPackages [spotify-to-ytmusic]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-08 20:50:41] INFO root fetch - processPackages [guten]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-08 20:50:41] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:41] INFO root fetch - processPackages [SignalCliApi]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-08 20:50:41] INFO root fetch - processPackages [guten]: executing diffoscope
+[2023-04-08 20:50:41] INFO root fetch - processPackages [guten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guten-0.1.8.tar.gz tmp/guten-0.1.9.tar.gz --markdown 20230408/g/guten/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-08 20:50:41] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-04-08 20:50:41] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202304081551-py3-none-any.whl.zip tmp/kcli-99.0.202304081851-py3-none-any.whl.zip --markdown 20230408/k/kcli/99.0.202304081551-99.0.202304081851/diff.md --exclude *.pyd
+[2023-04-08 20:50:41] INFO root fetch - processPackages [spotify-to-ytmusic]: Downloading https://files.pythonhosted.org/packages/55/44/89be475c64d127c0e9c58fd6fb75d68d5ac0c72a79ff6a00289e21293e7b/spotify_to_ytmusic-0.1.0.tar.gz
+[2023-04-08 20:50:41] INFO root fetch - processPackages [SignalCliApi]: Downloading https://files.pythonhosted.org/packages/6e/6b/a58916ef3d3a8bbcc76782a199fa8e4d6cb0e9cea0d393412003aac0ace4/SignalCliApi-0.1.6.tar.gz
+[2023-04-08 20:50:41] INFO root fetch - processPackages [SignalCliApi]: executing diffoscope
+[2023-04-08 20:50:41] INFO root fetch - processPackages [SignalCliApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SignalCliApi-0.1.5.tar.gz tmp/SignalCliApi-0.1.6.tar.gz --markdown 20230408/S/SignalCliApi/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-08 20:50:42] INFO root fetch - processPackages [spotify-to-ytmusic]: Downloading https://files.pythonhosted.org/packages/82/33/f9ced54e5b2bd934c44f3a0e9684c560cb80613eeb54a5f73806a2e96551/spotify_to_ytmusic-0.1.1.tar.gz
+[2023-04-08 20:50:42] INFO root fetch - processPackages [spotify-to-ytmusic]: executing diffoscope
+[2023-04-08 20:50:42] INFO root fetch - processPackages [spotify-to-ytmusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_to_ytmusic-0.1.0.tar.gz tmp/spotify_to_ytmusic-0.1.1.tar.gz --markdown 20230408/s/spotify-to-ytmusic/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-08 20:50:42] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:42] INFO root fetch - processPackages [keyrock-encryption]: New version: [2023.4.8.1854] Old Version: [2023.4.8.1838]
+[2023-04-08 20:50:42] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:42] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-04-08 20:50:42] INFO root fetch - processPackages [keyrock-encryption]: Downloading https://files.pythonhosted.org/packages/25/65/583f46e9c4355618b68c86a508f8acedbb17e0bed63a2fa9d45cd6a42e50/keyrock-encryption-2023.4.8.1854.tar.gz
+[2023-04-08 20:50:42] INFO root fetch - processPackages [keyrock-encryption]: executing diffoscope
+[2023-04-08 20:50:42] INFO root fetch - processPackages [keyrock-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrock-encryption-2023.4.8.1838.tar.gz tmp/keyrock-encryption-2023.4.8.1854.tar.gz --markdown 20230408/k/keyrock-encryption/2023.4.8.1838-2023.4.8.1854/diff.md --exclude *.pyd
+[2023-04-08 20:50:42] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/ff/1f/f26cc4c3381beaa14f577a8db223d1b18ada16c5869814d55c6c08f68dd4/nonebot_plugin_l4d2_server-0.4.3-py3-none-any.whl
+[2023-04-08 20:50:43] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:43] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:43] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:43] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-04-08 20:50:43] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.4.2.tar.gz tmp/nonebot_plugin_l4d2_server-0.4.3-py3-none-any.whl.zip --markdown 20230408/n/nonebot-plugin-l4d2-server/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-04-08 20:50:44] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:50:51] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17631808]
+[2023-04-08 20:52:04] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-04-08 20:52:04] INFO root fetch - processPackages [selenium-enhancer]: New version: [1.0.0] Old Version: [0.2.22]
+[2023-04-08 20:52:05] INFO root fetch - processPackages [selenium-enhancer]: executing diffoscope
+[2023-04-08 20:52:05] INFO root fetch - processPackages [selenium-enhancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_enhancer-0.2.22.tar.gz tmp/selenium_enhancer-1.0.0.tar.gz --markdown 20230408/s/selenium-enhancer/0.2.22-1.0.0/diff.md --exclude *.pyd
+[2023-04-08 20:52:06] INFO root fetch - main [MainThread]: success
+[2023-04-08 20:53:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17631811]
+[2023-04-08 20:53:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-04-08 20:53:40] ERROR root fetch - processPackages [RegressionVisualizer3D]: Unable to get metadata: No such project 'RegressionVisualizer3D'
+[2023-04-08 20:53:40] INFO root fetch - main [MainThread]: error
