@@ -1053,3 +1053,33 @@
 [2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
 [2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
 [2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:32:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17630984]
+[2023-04-08 18:32:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-08 18:32:44] INFO root fetch - processPackages [RP-DataBase]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-08 18:32:44] INFO root fetch - processPackages [terrario]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-08 18:32:44] INFO root fetch - processPackages [moonglaive]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-08 18:32:44] INFO root fetch - processPackages [GRLMerger]: New version: [0.2.1] Old Version: [0.1.5]
+[2023-04-08 18:32:44] INFO root fetch - processPackages [GRLMerger]: New version: [0.2.1] Old Version: [0.1.5]
+[2023-04-08 18:32:44] INFO root fetch - processPackages [moonglaive]: executing diffoscope
+[2023-04-08 18:32:44] INFO root fetch - processPackages [moonglaive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonglaive-0.0.1-py2.py3-none-any.whl.zip tmp/moonglaive-0.0.2.tar.gz --markdown 20230408/m/moonglaive/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-08 18:32:44] INFO root fetch - processPackages [GRLMerger]: Downloading https://files.pythonhosted.org/packages/53/11/487b78a8f7bed15f0282f48e5723f0ff2aaa9b0bc2dcff0333a5755392c7/GRLMerger-0.1.5-py3-none-any.whl
+[2023-04-08 18:32:44] INFO root fetch - processPackages [GRLMerger]: Downloading https://files.pythonhosted.org/packages/53/11/487b78a8f7bed15f0282f48e5723f0ff2aaa9b0bc2dcff0333a5755392c7/GRLMerger-0.1.5-py3-none-any.whl
+[2023-04-08 18:32:44] INFO root fetch - processPackages [RP-DataBase]: Downloading https://files.pythonhosted.org/packages/2b/2d/e2f5aec415bba6d8efc5b194473ec03bc567405e6ba929de0f4e6cce2519/RP-DataBase-1.0.1.tar.gz
+[2023-04-08 18:32:44] INFO root fetch - processPackages [terrario]: Downloading https://files.pythonhosted.org/packages/3e/8d/f46ab76df2e6c84b09462ff97ccbc251153c6ceaedf73f0bd840761bbb40/terrario-0.0.8.tar.gz
+[2023-04-08 18:32:45] INFO root fetch - processPackages [RP-DataBase]: Downloading https://files.pythonhosted.org/packages/ea/2d/2f0eb1e34f1eba7b1d1aedd54da87eff634c9dbd1f0734e2c90c08eaa264/RP-DataBase-1.1.0.tar.gz
+[2023-04-08 18:32:45] INFO root fetch - processPackages [RP-DataBase]: executing diffoscope
+[2023-04-08 18:32:45] INFO root fetch - processPackages [RP-DataBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RP-DataBase-1.0.1.tar.gz tmp/RP-DataBase-1.1.0.tar.gz --markdown 20230408/R/RP-DataBase/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-08 18:32:45] INFO root fetch - processPackages [GRLMerger]: Downloading https://files.pythonhosted.org/packages/18/a4/1d90f12f387aeec174f60cf82f6fbe5f3d482ecff11754d8404f01d61172/GRLMerger-0.2.1-py3-none-any.whl
+[2023-04-08 18:32:45] INFO root fetch - processPackages [GRLMerger]: Downloading https://files.pythonhosted.org/packages/18/a4/1d90f12f387aeec174f60cf82f6fbe5f3d482ecff11754d8404f01d61172/GRLMerger-0.2.1-py3-none-any.whl
+[2023-04-08 18:32:45] INFO root fetch - processPackages [GRLMerger]: executing diffoscope
+[2023-04-08 18:32:45] INFO root fetch - processPackages [GRLMerger]: executing diffoscope
+[2023-04-08 18:32:45] INFO root fetch - processPackages [GRLMerger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GRLMerger-0.1.5-py3-none-any.whl.zip tmp/GRLMerger-0.2.1-py3-none-any.whl.zip --markdown 20230408/G/GRLMerger/0.1.5-0.2.1/diff.md --exclude *.pyd
+[2023-04-08 18:32:45] INFO root fetch - processPackages [GRLMerger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GRLMerger-0.1.5-py3-none-any.whl.zip tmp/GRLMerger-0.2.1-py3-none-any.whl.zip --markdown 20230408/G/GRLMerger/0.1.5-0.2.1/diff.md --exclude *.pyd
+[2023-04-08 18:32:45] INFO root fetch - processPackages [terrario]: Downloading https://files.pythonhosted.org/packages/97/a5/a9a76bf60a7c43f2a878b0999046e5081dfbadb7fc1b53e8c5dd16a797a6/terrario-0.0.9.tar.gz
+[2023-04-08 18:32:45] INFO root fetch - processPackages [terrario]: executing diffoscope
+[2023-04-08 18:32:45] INFO root fetch - processPackages [terrario]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrario-0.0.8.tar.gz tmp/terrario-0.0.9.tar.gz --markdown 20230408/t/terrario/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-08 18:32:45] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:32:46] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:32:46] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:32:46] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:32:46] INFO root fetch - main [MainThread]: success
