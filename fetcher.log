@@ -953,3 +953,103 @@
 [2023-04-08 18:22:02] INFO root fetch - processPackages [microdot]: executing diffoscope
 [2023-04-08 18:22:02] INFO root fetch - processPackages [microdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microdot-1.2.4.tar.gz tmp/microdot-1.3.0.tar.gz --markdown 20230408/m/microdot/1.2.4-1.3.0/diff.md --exclude *.pyd
 [2023-04-08 18:22:04] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:22:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17630931]
+[2023-04-08 18:22:21] INFO root fetch - main [MainThread]: No changed packages found
+[2023-04-08 18:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17630931]
+[2023-04-08 18:30:23] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-08 18:30:23] INFO root fetch - processPackages [icommandlib]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-08 18:30:23] INFO root fetch - processPackages [git-limiter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-08 18:30:23] INFO root fetch - processPackages [kiwigrad]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-08 18:30:23] INFO root fetch - processPackages [sanic-api]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-08 18:30:23] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev1] Old Version: [0.2.dev9]
+[2023-04-08 18:30:23] INFO root fetch - processPackages [git-limiter]: Downloading https://files.pythonhosted.org/packages/b3/35/4847439fcfa80e1dfccf5d3a094bc840dd9f9b72aee8fbad09c252799bf9/git_limiter-0.1.0.tar.gz
+[2023-04-08 18:30:23] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/df/fa/6e8403971f24f98bae8ff2e4169ec58d18dbe8f4f709cdee2655cacd43f3/cdk_webapp_skeleton-0.2.dev9.tar.gz
+[2023-04-08 18:30:23] INFO root fetch - processPackages [icommandlib]: Downloading https://files.pythonhosted.org/packages/9a/86/67b7309e205c3ad38f453d7f755d8d08ec0e4d17c5d56b422d67e64b2e7e/icommandlib-0.6.0.tar.gz
+[2023-04-08 18:30:23] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/39/95/9e3bc0ac04e79e25fa786e237478671bab828b0b47630db84172a3237f1c/kiwigrad-0.0.5.tar.gz
+[2023-04-08 18:30:23] INFO root fetch - processPackages [sanic-api]: Downloading https://files.pythonhosted.org/packages/41/d7/c24d40f2502f3605dc29ddd7ec12370b0d8291de500bf1579a16b0c6e01c/sanic-api-0.2.4.tar.gz
+[2023-04-08 18:30:23] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/fe/b9/edf32e2574702fea66590ddd9a187c12d4a1c352fb0e7f3b7affc2e7730f/kiwigrad-0.0.6.tar.gz
+[2023-04-08 18:30:23] INFO root fetch - processPackages [git-limiter]: Downloading https://files.pythonhosted.org/packages/fa/9b/7e76e9dee9edb5a1e81b8ce1e38de75d13319e26d0a1517f35f76afc4a67/git_limiter-0.1.1.tar.gz
+[2023-04-08 18:30:24] INFO root fetch - processPackages [icommandlib]: Downloading https://files.pythonhosted.org/packages/ec/ba/ec6da271d2bfd0485691b0ab5e6384c7a9b733ed17b3ba6b29c0c57b2d67/icommandlib-0.6.1.tar.gz
+[2023-04-08 18:30:24] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-04-08 18:30:24] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.0.5.tar.gz tmp/kiwigrad-0.0.6.tar.gz --markdown 20230408/k/kiwigrad/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-08 18:30:24] INFO root fetch - processPackages [git-limiter]: executing diffoscope
+[2023-04-08 18:30:24] INFO root fetch - processPackages [git-limiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_limiter-0.1.0.tar.gz tmp/git_limiter-0.1.1.tar.gz --markdown 20230408/g/git-limiter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-08 18:30:24] INFO root fetch - processPackages [icommandlib]: executing diffoscope
+[2023-04-08 18:30:24] INFO root fetch - processPackages [icommandlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icommandlib-0.6.0.tar.gz tmp/icommandlib-0.6.1.tar.gz --markdown 20230408/i/icommandlib/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-08 18:30:24] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/a8/68/d4e651d238c26c8735fad7c7d74297d1e5a3f47ff70752f0ac4900f2c6a1/cdk_webapp_skeleton-0.3.dev1.tar.gz
+[2023-04-08 18:30:24] INFO root fetch - processPackages [sanic-api]: Downloading https://files.pythonhosted.org/packages/7a/2b/467c44339d492f18c4b8868b20055e332273bb7fcb7e34b4cdd1f328086a/sanic-api-0.2.5.tar.gz
+[2023-04-08 18:30:24] INFO root fetch - processPackages [sanic-api]: executing diffoscope
+[2023-04-08 18:30:24] INFO root fetch - processPackages [sanic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-api-0.2.4.tar.gz tmp/sanic-api-0.2.5.tar.gz --markdown 20230408/s/sanic-api/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-08 18:30:24] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-04-08 18:30:24] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.2.dev9.tar.gz tmp/cdk_webapp_skeleton-0.3.dev1.tar.gz --markdown 20230408/c/cdk-webapp-skeleton/0.2.dev9-0.3.dev1/diff.md --exclude *.pyd
+[2023-04-08 18:30:25] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:25] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:25] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:25] INFO root fetch - processPackages [ascvid]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-08 18:30:25] INFO root fetch - processPackages [parse-1099]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-04-08 18:30:25] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:25] INFO root fetch - processPackages [pymodelextractor]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-08 18:30:25] INFO root fetch - processPackages [moonglaive]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-08 18:30:25] INFO root fetch - processPackages [ascvid]: Downloading https://files.pythonhosted.org/packages/60/c9/1a8148587d6ff5c48b428c40822b3cbf03d6b68ba65f598b9383406d5bc9/ascvid-1.1.0.tar.gz
+[2023-04-08 18:30:25] INFO root fetch - processPackages [parse-1099]: Downloading https://files.pythonhosted.org/packages/85/a1/cb10e97ba59371a82ce94ec311ff0bc8d6c0a292b2ab200e5e4051666a7f/parse_1099-2.0.0.tar.gz
+[2023-04-08 18:30:25] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/fc/bc/c9eebfd3707b9d615afe61a6ad8517165dd8bc25f96953ff3456cccf5f1e/moonglaive-0.0.1-py2.py3-none-any.whl
+[2023-04-08 18:30:25] INFO root fetch - processPackages [ascvid]: Downloading https://files.pythonhosted.org/packages/6e/32/43c6055eacfdcf458d4ced55f8a8a49aff7341de763d9b483d2abc34ac2a/ascvid-1.2.0.tar.gz
+[2023-04-08 18:30:25] INFO root fetch - processPackages [pymodelextractor]: executing diffoscope
+[2023-04-08 18:30:25] INFO root fetch - processPackages [pymodelextractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodelextractor-0.9.8.tar.gz tmp/pymodelextractor-0.9.9.tar.gz --markdown 20230408/p/pymodelextractor/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-08 18:30:25] INFO root fetch - processPackages [ascvid]: executing diffoscope
+[2023-04-08 18:30:25] INFO root fetch - processPackages [ascvid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascvid-1.1.0.tar.gz tmp/ascvid-1.2.0.tar.gz --markdown 20230408/a/ascvid/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-08 18:30:25] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:25] INFO root fetch - processPackages [binance-data-exporter]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-08 18:30:25] INFO root fetch - processPackages [moonglaive]: Downloading https://files.pythonhosted.org/packages/81/ed/06ee2d569b0db0de632c5bf324c0eb52ddbe46db5178989513d30ae510ca/moonglaive-0.0.2.tar.gz
+[2023-04-08 18:30:25] INFO root fetch - processPackages [parse-1099]: Downloading https://files.pythonhosted.org/packages/5d/83/d667fbaf5cb24cad9b4ba743b514b5a3ce14bf0ac98e42233bd9d3ff413c/parse_1099-2.1.0.tar.gz
+[2023-04-08 18:30:25] INFO root fetch - processPackages [moonglaive]: executing diffoscope
+[2023-04-08 18:30:25] INFO root fetch - processPackages [moonglaive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonglaive-0.0.1-py2.py3-none-any.whl.zip tmp/moonglaive-0.0.2.tar.gz --markdown 20230408/m/moonglaive/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-08 18:30:25] INFO root fetch - processPackages [parse-1099]: executing diffoscope
+[2023-04-08 18:30:25] INFO root fetch - processPackages [parse-1099]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parse_1099-2.0.0.tar.gz tmp/parse_1099-2.1.0.tar.gz --markdown 20230408/p/parse-1099/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-04-08 18:30:26] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:26] INFO root fetch - processPackages [jaynes]: New version: [0.9.5] Old Version: [0.9.3]
+[2023-04-08 18:30:26] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:26] INFO root fetch - processPackages [kiwigrad]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-08 18:30:26] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:26] INFO root fetch - processPackages [jaynes]: Downloading https://files.pythonhosted.org/packages/70/96/edf915cddcd04dbafa037b38eb68ecb809a21e74532b2186650d6ed2b393/jaynes-0.9.3-py3-none-any.whl
+[2023-04-08 18:30:26] INFO root fetch - processPackages [binance-data-exporter]: Downloading https://files.pythonhosted.org/packages/ef/ee/15388bbea815f8baa6e324879cc93d66437fd7830880566ad139995ffddd/binance_data_exporter-0.2.4.tar.gz
+[2023-04-08 18:30:27] INFO root fetch - processPackages [binance-data-exporter]: executing diffoscope
+[2023-04-08 18:30:27] INFO root fetch - processPackages [binance-data-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binance_data_exporter-0.2.3.tar.gz tmp/binance_data_exporter-0.2.4.tar.gz --markdown 20230408/b/binance-data-exporter/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-08 18:30:27] INFO root fetch - processPackages [nacolla]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-08 18:30:27] INFO root fetch - processPackages [jaynes]: Downloading https://files.pythonhosted.org/packages/5d/4f/7c057839579c8a6f33ddf371a68f2a5d079131f317269b2085f787a113cf/jaynes-0.9.5-py3-none-any.whl
+[2023-04-08 18:30:27] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-04-08 18:30:27] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.0.5.tar.gz tmp/kiwigrad-0.0.6.tar.gz --markdown 20230408/k/kiwigrad/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-08 18:30:27] INFO root fetch - processPackages [jaynes]: executing diffoscope
+[2023-04-08 18:30:27] INFO root fetch - processPackages [jaynes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaynes-0.9.3-py3-none-any.whl.zip tmp/jaynes-0.9.5-py3-none-any.whl.zip --markdown 20230408/j/jaynes/0.9.3-0.9.5/diff.md --exclude *.pyd
+[2023-04-08 18:30:27] INFO root fetch - processPackages [nacolla]: Downloading https://files.pythonhosted.org/packages/6e/d6/f57579fb8de312229092daf6baac239e5658cd83731325588d44c81c373e/nacolla-0.1.4.tar.gz
+[2023-04-08 18:30:27] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:27] INFO root fetch - processPackages [nacolla]: executing diffoscope
+[2023-04-08 18:30:27] INFO root fetch - processPackages [nacolla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nacolla-0.1.3.tar.gz tmp/nacolla-0.1.4.tar.gz --markdown 20230408/n/nacolla/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-08 18:30:27] INFO root fetch - processPackages [siat]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-08 18:30:27] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/98/70/81a4e547d00aaff148d268a5ed8d4ee349e61405459e010ab9f0aa72b1c3/siat-1.8.2-py3-none-any.whl
+[2023-04-08 18:30:27] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-04-08 18:30:27] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-1.8.1-py3-none-any.whl.zip tmp/siat-1.8.2-py3-none-any.whl.zip --markdown 20230408/s/siat/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-08 18:30:28] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:28] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:28] INFO root fetch - processPackages [arraytex]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-08 18:30:28] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:28] INFO root fetch - processPackages [moonglaive]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-08 18:30:28] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.13.0.dev20230408] Old Version: [2.13.0.dev20230406]
+[2023-04-08 18:30:28] INFO root fetch - processPackages [moonglaive]: executing diffoscope
+[2023-04-08 18:30:28] INFO root fetch - processPackages [moonglaive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonglaive-0.0.1-py2.py3-none-any.whl.zip tmp/moonglaive-0.0.2.tar.gz --markdown 20230408/m/moonglaive/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-08 18:30:28] INFO root fetch - processPackages [arraytex]: Downloading https://files.pythonhosted.org/packages/94/91/1d0d42d1f023ec00e956d0e0ad0151897eeb0ea372c7a937a609f20a3767/arraytex-0.0.5.tar.gz
+[2023-04-08 18:30:28] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:28] INFO root fetch - processPackages [openhasp-config-manager]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-08 18:30:28] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/5a/19/9b2ab667eb8996a525733e0302e18c6af581c6aa77f85858a7b5b8a2510c/tf_nightly_intel-2.13.0.dev20230406-cp39-cp39-win_amd64.whl
+[2023-04-08 18:30:28] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 178093344>=10485760
+[2023-04-08 18:30:28] INFO root fetch - main [MainThread]: error
+[2023-04-08 18:30:28] INFO root fetch - processPackages [arraytex]: Downloading https://files.pythonhosted.org/packages/96/6d/7e119ff966bfdccd4164a9b1ff7b58b81266a07a388b7cf7a667f96b0042/arraytex-0.0.6.tar.gz
+[2023-04-08 18:30:28] INFO root fetch - processPackages [openhasp-config-manager]: Downloading https://files.pythonhosted.org/packages/c7/b6/e0739cd8048362df711e7a486ff2a8bf292577392a33d59ad544db0d419c/openhasp_config_manager-0.4.1.tar.gz
+[2023-04-08 18:30:28] INFO root fetch - processPackages [arraytex]: executing diffoscope
+[2023-04-08 18:30:28] INFO root fetch - processPackages [arraytex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arraytex-0.0.5.tar.gz tmp/arraytex-0.0.6.tar.gz --markdown 20230408/a/arraytex/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-08 18:30:28] INFO root fetch - processPackages [openhasp-config-manager]: executing diffoscope
+[2023-04-08 18:30:28] INFO root fetch - processPackages [openhasp-config-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230408:/home/abi/fetcher/20230408:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhasp_config_manager-0.4.0.tar.gz tmp/openhasp_config_manager-0.4.1.tar.gz --markdown 20230408/o/openhasp-config-manager/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
+[2023-04-08 18:30:29] INFO root fetch - main [MainThread]: success
